@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.content-wrapper {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.content-wrapper iframe,
+.content-wrapper video,
+.content-wrapper img,
+.content-wrapper .youtube {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bg-vue {
+    background-color: #4dba87;
+}
+.bg-vue:hover {
+    background-color: #40a576;
+}
+.bg-tailwind {
+    background-color: #38bdf8;
+}
+.bg-tailwind:hover {
+    background-color: #09aff6;
+}
+.bg-laravel {
+    background-color: #ff2d20;
+}
+.bg-laravel:hover {
+    background-color: #cc0a00;
+}
+.bg-jetstream {
+    background-color: #6875f5;
+}
+.bg-jetstream:hover {
+    background-color: #5767f4;
+}
+.bg-mysql {
+    background-color: #3e6e93;
+}
+.bg-mysql:hover {
+    background-color: #355e7e;
+}
+.bg-bootstrap {
+    background-color: #7633f9;
+}
+.bg-bootstrap:hover {
+    background-color: #5808f7;
+}
+.bg-osm {
+    background-color: #97c980;
+}
+.bg-osm:hover {
+    background-color: #7bba5e;
+}
+.bg-docker {
+    background-color: #2496ed;
+}
+.bg-docker:hover {
+    background-color: #1180d4;
+}
+.bg-jquery {
+    background-color: #0769ad;
+}
+.bg-jquery:hover {
+    background-color: #065893;
+}
+.bg-openlayers {
+    background-color: #35bbcd;
+}
+.bg-openlayers:hover {
+    background-color: #2ea8b8;
+}
+.bg-stripe {
+    background-color: #635bff;
+}
+.bg-stripe:hover {
+    background-color: #3d33ff;
+}
+.bg-php {
+    background-color: #8892bf;
+}
+.bg-php:hover {
+    background-color: #6a76af;
+}
+.bg-google {
+    background-color: #009688;
+}
+.bg-google:hover {
+    background-color: #008073;
+}
+.bg-js {
+    background-color: #fcdc00;
+    color: black;
+}
+.bg-js:hover {
+    background-color: #ccb100;
+    color: black;
+}
+.bg-github {
+    background-color: #f0f6fc;
+    color: black;
+}
+.bg-github:hover {
+    background-color: #d0d6dc;
+    color: black;
+}
+.bg-hubspot {
+    background-color: #ff7a59;
+}
+.bg-hubspot:hover {
+    background-color: #ff5c33;
+}
+.bg-facebook {
+    background-color: #0056b4;
+}
+.bg-facebook:hover {
+    background: #003e80;
+}

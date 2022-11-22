@@ -1,5 +1,5 @@
-id: 37983
-name: nepsg
+id: 38745
+name: portfolio
 environments:
   production:
     memory: 1024
@@ -8,5 +8,4 @@ environments:
     build:
       - 'composer install --no-dev'
       - 'php artisan event:cache'
-      - 'php artisan config:cache'
       # - 'npm ci && npm run build && rm -rf node_modules'

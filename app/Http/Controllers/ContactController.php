@@ -2,27 +2,27 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\ContactRequest;
 use Illuminate\Http\Request;
 use AWS;
 
 class ContactController extends Controller
 {
-    public function send(Request $request)
+    public function send(ContactRequest $request)
     {
-
         $sns = AWS::createClient('sns');
 
         $sns->publish([
             'TopicArn' => config('aws.sns_topic_arn'),
-            'Message' => 'This message was sent via the contact form by '.
-                $request->post('first-name').' '.
-                $request->post('last-name').' ('.
-                $request->post('email').')'.
-                ':'.PHP_EOL.PHP_EOL.
-                $request->post('message'),
-            'Subject' => 'Website Contact: '.$request->post('subject'),
+            'Message' => 'This message was sent via the contact form on danportwine.co.uk.'.PHP_EOL.PHP_EOL.
+                'First Name: '.$request->post('first-name').PHP_EOL.
+                'Last Name: '.$request->post('last-name').PHP_EOL.
+                'Email: '.$request->post('email').PHP_EOL.
+                'Company: '.$request->post('company').PHP_EOL.PHP_EOL.
+                'Message:'.PHP_EOL.$request->post('message'),
+            'Subject' => 'Portfolio Contact: '.$request->post('subject'),
         ]);
 
-        return back();
+        return back()->with('success', 'Message sent.');
     }
 }
