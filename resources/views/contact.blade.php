@@ -80,7 +80,7 @@
                 <textarea name="message" class="w-full h-64 px-3 py-2 text-gray-800 transition duration-100 border rounded-md outline-none bg-gray-50 focus:ring ring-blue-300" maxlength="5000" required></textarea>
             </div>
             <div class="flex items-center justify-between sm:col-span-2">
-                <button class="inline-block px-8 py-3 text-sm font-semibold text-center text-white transition duration-100 rounded-md outline-none md:text-base bg-green-600 active:bg-green-700 hover:bg-green-500 ring-green-300"
+                <button class="inline-block px-8 py-3 text-sm font-semibold text-center text-white transition duration-100 rounded-md outline-none md:text-base bg-green-600 active:bg-green-700 hover:bg-green-500 ring-green-300 disabled:bg-green-300"
                         id="contact-submit"
                         disabled
                 >
