@@ -8,12 +8,12 @@
     <meta name="twitter:site" content="@danielportwine">
     <meta name="twitter:title" content="@stack('title') Daniel Portwine - Laravel Developer">
     <meta name="twitter:description" content="I build bespoke web software using Laravel/PHP to expand the online service offering of businesses.">
-    <meta name="twitter:image:src" content="https://raw.githubusercontent.com/DanielPortwine/DanielPortwine.github.io/main/media/og-image.png">
+    <meta name="twitter:image:src" content="{{ asset('media/og-image.png') }}">
     <meta property="og:site_name" content="Daniel Portwine">
     <meta property="og:title" content="@stack('title') Daniel Portwine - Laravel Developer">
     <meta property="og:description" content="@yield('description')I build bespoke web software using Laravel/PHP to expand the online service offering of businesses.">
     <meta property="og:url" content="https://danportwine.co.uk">
-    <meta property="og:image" content="https://raw.githubusercontent.com/DanielPortwine/DanielPortwine.github.io/main/media/og-image.png">
+    <meta property="og:image" content="{{ asset('media/og-image.png') }}">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="600">
     <title>@stack('title')Daniel Portwine - Laravel Developer</title>
