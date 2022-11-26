@@ -38,7 +38,7 @@ return [
      * get more info @ https://developers.google.com/recaptcha/docs/versions
      *
      */
-    'version'                      => 'v3',
+    'version'                      => 'invisible',
 
     /**
      *
@@ -161,13 +161,13 @@ return [
          * The g-recaptcha-response token is passed to your callback.
          * DO NOT SET "biscolabOnloadCallback"
          */
-        'callback'         => null,
+        'callback'         => 'callbackThen',
 
         /**
          * The name of your callback function, executed when the reCAPTCHA response expires and the user needs to re-verify.
          * DO NOT SET "biscolabOnloadCallback"
          */
-        'expired-callback' => null,
+        'expired-callback' => 'callbackExpired',
 
         /**
          * The name of your callback function, executed when reCAPTCHA encounters an error (usually network connectivity) and cannot continue until connectivity is restored.

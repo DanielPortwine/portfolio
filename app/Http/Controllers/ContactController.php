@@ -14,7 +14,7 @@ class ContactController extends Controller
 
         $sns->publish([
             'TopicArn' => config('aws.sns_topic_arn'),
-            'Message' => 'This message was sent via the contact form on danportwine.co.uk.'.PHP_EOL.PHP_EOL.
+            'Message' => 'This message was sent via the contact form on '.config('app.url').'.'.PHP_EOL.PHP_EOL.
                 'First Name: '.$request->post('first-name').PHP_EOL.
                 'Last Name: '.$request->post('last-name').PHP_EOL.
                 'Email: '.$request->post('email').PHP_EOL.
