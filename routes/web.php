@@ -19,6 +19,7 @@ Route::get('/', function () { return view('welcome'); })->name('home');
 
 Route::get('contact', function () { return view('contact'); })->name('contact');
 Route::post('contact', [ContactController::class, 'send'])->name('contact-send');
+Route::get('thanks', function () { return view('contact-thanks'); })->name('contact-thanks');
 
 Route::prefix('projects')->group(function () {
     Route::get('/', function () { return view('projects'); })->name('projects');

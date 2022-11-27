@@ -34,20 +34,6 @@
 @endsection
 
 @section('content')
-@if(!empty(app('request')->get('success')))
-    <div class="bg-green-300 py-4 px-8 mx-auto">
-        <p class="text-green-900">{{ app('request')->get('success') }}</p>
-    </div>
-@endif
-@if(!empty(session('errors')))
-    <div class="bg-red-300 py-4 px-8 mx-auto text-red-900">
-        <ul>
-            @foreach(json_decode(session('errors')) as $error)
-                <li>{{ $error[0] }}</li>
-            @endforeach
-        </ul>
-    </div>
-@endif
 <section class="w-full px-8 pt-20 pb-16 bg-gray-700 xl:px-0">
     <div class="flex flex-col max-w-6xl mx-auto">
         <h3 class="text-4xl font-extrabold leading-none sm:text-5xl md:text-6xl lg:leading-7 text-white">Get in touch<br></h3>
