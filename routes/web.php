@@ -26,3 +26,5 @@ Route::prefix('projects')->group(function () {
 });
 
 Route::get('about', function () { return view('about'); })->name('about');
+
+Route::get('robots.txt', function () { return file_get_contents(asset('robots.txt')); })->name('robots');
