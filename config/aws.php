@@ -17,8 +17,8 @@ return [
     |
     */
     'credentials' => [
-        'key'    => env('AWS_ACCESS_KEY_ID', ''),
-        'secret' => env('AWS_SECRET_ACCESS_KEY', ''),
+        'key'    => env('AWS_LIVE_ACCESS_KEY_ID', ''),
+        'secret' => env('AWS_LIVE_SECRET_ACCESS_KEY', ''),
     ],
     'region' => env('AWS_REGION', 'eu-west-2'),
     'version' => 'latest',
