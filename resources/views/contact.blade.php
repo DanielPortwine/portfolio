@@ -34,9 +34,9 @@
 @endsection
 
 @section('content')
-@if(!empty(session('success')))
+@if(!empty(app('request')->get('success')))
     <div class="bg-green-300 py-4 px-8 mx-auto">
-        <p class="text-green-900">{{ session('success') }}</p>
+        <p class="text-green-900">{{ app('request')->get('success') }}</p>
     </div>
 @endif
 @if(!empty(session('errors')))

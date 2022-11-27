@@ -23,6 +23,6 @@ class ContactController extends Controller
             'Subject' => 'Portfolio Contact: '.$request->post('subject'),
         ]);
 
-        return redirect()->route('contact')->with('success', 'Message sent.');
+        return redirect()->route('contact', ['success' => 'Message sent.']);
     }
 }
