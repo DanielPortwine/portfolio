@@ -19,8 +19,6 @@
         function checkRecaptcha() {
             if (captchaPassed) {
                 setTimeout(clickSubmit, 100);
-            } else {
-                alert('reCAPTCHA failed');
             }
         }
 
@@ -68,7 +66,6 @@
                 Fill out the form below or email <a class="text-green-300 hover:text-green-200" href="mailto:daniel@danportwine.co.uk">daniel@danportwine.co.uk</a> directly and I'll aim to get back to you within 48 hours.<br><br>Please provide as much information about your request as possible and a bit about yourself/your company so I can see if we'll be a good fit.<br></p>
         </div>
         <form id="contact-form" class="grid max-w-3xl gap-4 mx-auto sm:grid-cols-2" method="post" action="{{ route('contact-send') }}">
-            @csrf
             <div class="">
                 <label for="first-name" class="inline-block mb-2 text-sm font-medium text-gray-300 sm:text-base">First name <sup class="text-red-500">*</sup></label>
                 <input name="first-name" id="first-name" class="w-full px-3 py-2 text-gray-800 transition duration-100 border rounded-md outline-none bg-gray-50 focus:ring ring-blue-300" maxlength="25" required>
@@ -95,7 +92,7 @@
             </div>
             <div class="flex flex-col items-left justify-between sm:col-span-2">
                 <button type="submit" id="contact-hidden-submit" class=""></button>
-                <button class="inline-block px-8 py-3 text-sm font-semibold text-center text-white transition duration-100 rounded-md outline-none md:text-base bg-green-600 active:bg-green-700 hover:bg-green-500 ring-green-300 disabled:bg-green-300 g-recaptcha"
+                <button type="submit" class="inline-block px-8 py-3 text-sm font-semibold text-center text-white transition duration-100 rounded-md outline-none md:text-base bg-green-600 active:bg-green-700 hover:bg-green-500 ring-green-300 disabled:bg-green-300 g-recaptcha"
                         id="contact-submit"
                         data-callback="callbackThen"
                         data-sitekey="{{ config('recaptcha.api_site_key') }}"
