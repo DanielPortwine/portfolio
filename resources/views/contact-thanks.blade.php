@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@push('seo')<meta name="robots" content="noindex">@endpush
+
 @push('title')Thanks For Getting In Touch | @endpush
 
 @section('description')Get in touch to work together. | @endsection

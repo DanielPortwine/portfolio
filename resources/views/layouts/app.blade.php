@@ -16,6 +16,7 @@
     <meta property="og:image" content="{{ asset('media/og-image.png') }}">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="600">
+    @stack('seo')
     <title>@stack('title')Daniel Portwine - Laravel Developer</title>
 
     <link rel="icon" type="image/x-icon" href="{{ asset('favicon.png') }}">
