@@ -15,13 +15,13 @@
                         <span class="block">Daniel</span>
                         <span class="block font-bold">Portwine</span>
                     </h5>
-                    <a class="inline-flex items-center justify-center px-8 py-4 mr-6 text-xl font-medium tracking-wide text-white transition duration-200 bg-green-400 hover:bg-green-500 focus:shadow-outline focus:outline-none" data-primary="green-400" data-rounded="" href="{{ route('contact') }}">
+                    <a class="inline-flex items-center justify-center px-8 py-4 mr-6 text-xl font-medium tracking-wide text-black transition duration-200 bg-green-400 hover:bg-green-500 focus:shadow-outline focus:outline-none" data-primary="green-400" data-rounded="" href="{{ route('contact') }}">
                         Get started
                     </a>
                 </div>
             </div>
             <div class="relative w-full h-auto pt-16 lg:w-2/3">
-                <img src="{{ asset('media/header-right-graphic.png') }}" class="w-full h-auto">
+                <img src="{{ asset('media/header-right-graphic.png') }}" class="w-full h-auto" alt="Header graphic">
             </div>
         </div>
     </div>
@@ -81,7 +81,9 @@
                     </ul>
                 </div>
             </div>
-            <div class="w-full px-3 mb-12 lg:w-1/2 order-0 lg:order-1 lg:mb-0"><img class="mx-auto sm:max-w-sm lg:max-w-full" src="{{ asset('media/feature-graphic.png') }}" alt="feature image"></div>
+            <div class="w-full px-3 mb-12 lg:w-1/2 order-0 lg:order-1 lg:mb-0">
+                <img class="mx-auto sm:max-w-sm lg:max-w-full" src="{{ asset('media/feature-graphic.png') }}" alt="Feature graphic">
+            </div>
         </div>
     </div>
 </section>
@@ -100,7 +102,7 @@
                 <div class="flex flex-col items-start justify-start w-full h-auto mb-12 lg:w-1/3 lg:mb-0">
                     <div class="flex items-center justify-center">
                         <div class="flex flex-col items-start justify-center">
-                            <h4 class="font-bold text-white">JP<br></h4>
+                            <h3 class="font-bold text-white">JP<br></h3>
                         </div>
                     </div>
                     <blockquote class="mt-8 text-lg text-gray-300">"Thank you for all your work on Feature Hub 2.0. It looks and works so
@@ -109,7 +111,7 @@
                 <div class="flex flex-col items-start justify-start w-full h-auto px-0 mx-0 mb-12 border-l border-r border-transparent lg:w-1/3 lg:mb-0 lg:px-8 lg:mx-8 lg:border-gray-200">
                     <div class="flex items-center justify-center">
                         <div class="flex flex-col items-start justify-center">
-                            <h4 class="font-bold text-white">Neil<br></h4>
+                            <h3 class="font-bold text-white">Neil<br></h3>
                         </div>
                     </div>
                     <blockquote class="mt-8 text-lg text-gray-300">"Thanks for your hard work on the PartnerHub :-)"</blockquote>
@@ -134,18 +136,18 @@
         </h2>
         <div class="grid grid-cols-4 gap-8 mt-10 sm:grid-cols-8 lg:grid-cols-12 sm:px-8 xl:px-0">
             <a class="relative flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 overflow-hidden transition-shadow duration-200 bg-gradient-to-tr from-cyan-500 to-green-500 bg-top bg-cover shadow-xl hover:shadow-2xl rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full" href="{{ route('projects-view', 'parkour-hub') }}">
-                <img src="{{ asset('media/projects/parkourhub/MapDemo.png') }}">
-                <h4 class="text-xl font-medium text-white text-center">Parkour Hub<br></h4>
+                <img src="{{ asset('media/projects/parkourhub/MapDemo.png') }}" alt="Parkour Hub project">
+                <h3 class="text-xl font-medium text-white text-center">Parkour Hub<br></h3>
                 <p class="text-base text-center text-gray-100">Parkour Hub is a SaaS platform for parkour athletes to share their spots and engage with the community.</p>
             </a>
             <a class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 transition-shadow duration-200 bg-gradient-to-tr from-cyan-500 to-green-500 bg-top bg-cover shadow-xl hover:shadow-2xl rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full" href="{{ route('projects-view', 'social') }}">
-                <img src="{{ asset('media/projects/social/SocialDemo.png') }}">
-                <h4 class="text-xl font-medium text-white">Social Platform<br></h4>
+                <img src="{{ asset('media/projects/social/SocialDemo.png') }}" alt="Social project">
+                <h3 class="text-xl font-medium text-white">Social Platform<br></h3>
                 <p class="text-base text-center text-gray-100">A Twitter-inspired social platform Single Page Application built with Laravel &amp; Vue.</p>
             </a>
             <a class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 transition-shadow duration-200 bg-gradient-to-tr from-cyan-500 to-green-500 bg-top bg-cover shadow-xl hover:shadow-2xl rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full" href="{{ route('projects-view', 'fruit-machine') }}">
-                <img src="{{ asset('media/projects/fruitmachine/FruitDemo.png') }}">
-                <h4 class="text-xl font-medium text-white">Fruit Machine<br></h4>
+                <img src="{{ asset('media/projects/fruitmachine/FruitDemo.png') }}" alt="Fruit Machine project">
+                <h3 class="text-xl font-medium text-white">Fruit Machine<br></h3>
                 <p class="text-base text-center text-gray-100">One of my first PHP projects, before learning Laravel. A fun fruit machine game with power-ups and penalties.</p>
             </a>
         </div>
@@ -166,13 +168,10 @@
             <div class="relative z-30 col-span-1 md:col-span-3">
                 <h2 class="mb-1 text-3xl font-bold leading-tight text-white md:mb-3 md:text-3xl lg:text-4xl xl:text-5xl">Ready to get started? <span class="block lg:mt-3">Get in touch now.</span></h2>
                 <p class="max-w-sm my-6 text-base font-normal text-green-100 xl:max-w-lg lg:pr-0 pr-7 lg:text-xl" data-primary="green-400">Are you ready to build the web app of your dreams? Get in touch to see if we'll be a good fit.</p>
-                <a href="{{ route('contact') }}" class="flex items-center justify-center w-full px-4 py-2 text-base font-medium leading-6 text-green-500 whitespace-no-wrap bg-white border-2 border-transparent rounded-full shadow-sm md:w-auto md:inline-flex hover:bg-transparent hover:text-white hover:border-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-600" data-primary="green-400" data-rounded="rounded-full">
+                <a href="{{ route('contact') }}" class="flex items-center justify-center w-full px-4 py-2 text-base font-medium leading-6 text-green-700 whitespace-no-wrap bg-white border-2 border-transparent rounded-full shadow-sm md:w-auto md:inline-flex hover:bg-transparent hover:text-white hover:border-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-600" data-primary="green-400" data-rounded="rounded-full">
                     Get Started
                 </a>
             </div>
-            {{--<div class="flex items-center h-full col-span-1 md:col-span-2">
-                <img src="https://cdn.devdojo.com/images/march2021/dashboard.jpg" class="relative top-0 right-0 object-cover w-full -mr-1 rounded md:max-w-sm md:w-auto max-w-none lg:absolute lg:max-w-md xl:max-w-lg lg:mt-9" alt="Dashboard">
-            </div>--}}
         </div>
     </div>
 </section>

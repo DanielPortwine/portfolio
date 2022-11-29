@@ -8,7 +8,7 @@
 <section class="relative w-full bg-gray-700">
     <div class="max-w-2xl lg:max-w-7xl px-10 xl:px-8 mx-auto items-center flex lg:flex-row flex-col py-10 sm:py-20">
         <div class="w-full sm:w-3/4 lg:w-1/2 lg:mt-0 mb-8">
-            <img src="{{ asset('media/profile.jpg') }}" class="rounded-full">
+            <img src="{{ asset('media/profile.jpg') }}" class="rounded-full" alt="Headshot of me">
         </div>
         <div class="w-full lg:w-1/2">
             <h1 class="text-4xl font-extrabold text-white tracking-tight sm:text-5xl">So who is Daniel Portwine?<br></h1>
@@ -26,7 +26,7 @@
         </div>
         <div class="flex flex-col mb-8 animated fadeIn sm:flex-row">
             <div class="flex items-center mb-8 sm:w-1/2 md:w-5/12 sm:order-last">
-                <img class="rounded-lg shadow-xl" src="{{ asset('media/projects/monkeychat/monkeychat.png') }}" alt="" data-rounded="rounded-lg" data-rounded-max="rounded-full">
+                <img class="rounded-lg shadow-xl" src="{{ asset('media/projects/monkeychat/monkeychat.png') }}" alt="Monkey Chat project" data-rounded="rounded-lg" data-rounded-max="rounded-full">
             </div>
             <div class="flex flex-col justify-center mt-5 mb-8 md:mt-0 sm:w-1/2 md:w-7/12 sm:pr-16">
                 <p class="mb-2 text-sm font-semibold leading-none text-left uppercase text-green-500" data-primary="indigo-600">A-level Computer Science Project<br></p>
@@ -36,7 +36,7 @@
         </div>
         <div class="flex flex-col mb-8 animated fadeIn sm:flex-row">
             <div class="flex items-center mb-8 sm:w-1/2 md:w-5/12">
-                <img class="rounded-lg shadow-xl" src="{{ asset('media/visualsoft.png') }}" alt="" data-rounded="rounded-lg" data-rounded-max="rounded-full">
+                <img class="rounded-lg shadow-xl" src="{{ asset('media/visualsoft.png') }}" alt="Visualsoft logo" data-rounded="rounded-lg" data-rounded-max="rounded-full">
             </div>
             <div class="flex flex-col justify-center mt-5 mb-8 md:mt-0 sm:w-1/2 md:w-7/12 sm:pl-16">
                 <p class="mb-2 text-sm font-semibold leading-none text-left uppercase text-green-500" data-primary="indigo-600">Landing a Job at Visualsoft<br></p>
@@ -46,7 +46,7 @@
         </div>
         <div class="flex flex-col mb-8 animated fadeIn sm:flex-row">
             <div class="flex items-center mb-8 sm:w-1/2 md:w-5/12 sm:order-last">
-                <img class="rounded-lg shadow-xl" src="{{ asset('media/handshake.jpg') }}" alt="" data-rounded="rounded-lg" data-rounded-max="rounded-full">
+                <img class="rounded-lg shadow-xl" src="{{ asset('media/handshake.jpg') }}" alt="Handshake" data-rounded="rounded-lg" data-rounded-max="rounded-full">
             </div>
             <div class="flex flex-col justify-center mt-5 mb-8 md:mt-0 sm:w-1/2 md:w-7/12 sm:pr-16">
                 <p class="mb-2 text-sm font-semibold leading-none text-left uppercase text-green-500" data-primary="indigo-600">Going Freelance<br></p>

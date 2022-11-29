@@ -6,6 +6,7 @@ environments:
     cli-memory: 512
     scheduler: false
     runtime: 'php-8.1:al2'
+    warm: 5
     build:
       - 'composer install --no-dev'
       - 'php artisan event:cache'

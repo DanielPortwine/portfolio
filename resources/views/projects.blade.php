@@ -21,25 +21,24 @@
                 </h2>
                 <h3 class="text-5xl font-bold leading-none text-white sm:text-6xl lg:text-7xl">Spot sharing platform.</h3>
                 <p class="max-w-sm my-8 text-center text-white opacity-75 md:text-left lg:text-lg md:max-w-none">Parkour Hub is a SaaS platform for parkour athletes to share their spots and engage with the community.</p>
-                <a href="{{ route('projects-view', 'parkour-hub') }}" class="px-6 py-2 text-lg font-medium text-white hover:text-green-300 border-2 border-white hover:border-green-300 rounded-full" data-rounded="rounded-full">Learn More</a>
+                <a href="{{ route('projects-view', 'parkour-hub') }}" class="px-6 py-2 text-lg font-medium text-white hover:text-green-300 border-2 border-white hover:border-green-300 rounded-full" data-rounded="rounded-full" aria-label="Learn more about the Parkour Hub project">Parkour Hub</a>
             </div>
-
             <div class="flex justify-end w-full overflow-hidden md:w-1/2 md:pl-0">
-                <img src="{{ asset('media/projects/parkourhub/MapDemo.png') }}" class="object-cover w-full h-full transform translate-x-0 md:translate-x-0">
+                <img src="{{ asset('media/projects/parkourhub/MapDemo.png') }}" class="object-cover w-full h-full transform translate-x-0 md:translate-x-0" alt="Parkour Hub project">
             </div>
         </div>
         <!-- Block 2 -->
         <div class="flex flex-col items-center h-full py-10 overflow-hidden md:rounded-xl bg-gradient-to-tr from-blue-900 via-indigo-700 to-green-700 md:flex-row" data-rounded="rounded-xl" data-rounded-max="rounded-full">
             <div class="flex justify-start w-full overflow-hidden md:w-1/2 md:pr-0">
-                <img src="{{ asset('media/projects/social/SocialDemo.png') }}" class="object-cover w-full h-full transform translate-x-0 md:translate-x-0">
+                <img src="{{ asset('media/projects/social/SocialDemo.png') }}" class="object-cover w-full h-full transform translate-x-0 md:translate-x-0" alt="Social project">
             </div>
             <div class="flex flex-col items-center justify-center w-full h-full py-5 pl-16 pr-12 mb-10 md:w-1/2 md:mb-0 md:items-start md:pl-16 lg:pl-10 lg:pr-12">
                 <h2 class="inline-block pb-2 mx-auto text-5xl font-bold leading-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-400 md:mx-0">Social Platform</h2>
                 <h3 class="text-5xl font-bold leading-none text-white">Laravel &amp; Vue SPA. </h3>
                 <p class="max-w-sm my-8 text-center text-white opacity-75 md:text-left lg:text-lg md:max-w-none">A Twitter-inspired social platform Single Page Application built with Laravel &amp; Vue.</p>
                 <div class="flex flex-row gap-4 flex-wrap justify-center">
-                    <a href="{{ route('projects-view', 'social') }}" class="px-6 py-2 text-lg font-medium text-white hover:text-green-300 border-2 border-white hover:border-green-300 rounded-full" data-rounded="rounded-full">Learn More</a>
-                    <a href="https://github.com/DanielPortwine/Social" class="px-2 py-2 text-lg font-medium text-white hover:text-green-300 border-2 border-white hover:border-green-300 rounded-full" data-rounded="rounded-full" target="_blank">
+                    <a href="{{ route('projects-view', 'social') }}" class="px-6 py-2 text-lg font-medium text-white hover:text-green-300 border-2 border-white hover:border-green-300 rounded-full" data-rounded="rounded-full" aria-label="Learn more about the Social project">Social</a>
+                    <a href="https://github.com/DanielPortwine/Social" class="px-2 py-2 text-lg font-medium text-white hover:text-green-300 border-2 border-white hover:border-green-300 rounded-full" data-rounded="rounded-full" target="_blank" aria-label="View the Social project on GitHub">
                         <svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M0 0h24v24H0z" stroke="none"></path><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 00-1.3-3.2 4.2 4.2 0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 00-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 00-.1 3.2A4.6 4.6 0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"></path></svg>
                     </a>
                 </div>
@@ -52,27 +51,26 @@
                 <h3 class="max-w-lg text-5xl font-bold leading-tight text-white">Fun little PHP project.</h3>
                 <p class="max-w-sm my-8 text-center text-white opacity-75 md:text-left lg:text-lg md:max-w-none tails-relative">One of my first PHP projects, before learning Laravel. A fun fruit machine game with power-ups and penalties.<br></p>
                 <div class="flex flex-row gap-4 flex-wrap justify-center">
-                    <a href="{{ route('projects-view', 'fruit-machine') }}" class="px-6 py-2 text-lg font-medium text-white hover:text-green-300 border-2 border-white hover:border-green-300 rounded-full" data-rounded="rounded-full">Learn More</a>
-                    <a href="https://github.com/DanielPortwine/Fruit-Machine" class="px-2 py-2 text-lg font-medium text-white hover:text-green-300 border-2 border-white hover:border-green-300 rounded-full" data-rounded="rounded-full" target="_blank">
+                    <a href="{{ route('projects-view', 'fruit-machine') }}" class="px-6 py-2 text-lg font-medium text-white hover:text-green-300 border-2 border-white hover:border-green-300 rounded-full" data-rounded="rounded-full" aria-label="Learn more about the Fruit Machine project">Fruit Machine</a>
+                    <a href="https://github.com/DanielPortwine/Fruit-Machine" class="px-2 py-2 text-lg font-medium text-white hover:text-green-300 border-2 border-white hover:border-green-300 rounded-full" data-rounded="rounded-full" target="_blank" aria-label="View the Fruit Machine project on GitHub">
                         <svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M0 0h24v24H0z" stroke="none"></path><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 00-1.3-3.2 4.2 4.2 0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 00-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 00-.1 3.2A4.6 4.6 0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"></path></svg>
                     </a>
                 </div>
             </div>
-
             <div class="flex justify-end w-full overflow-hidden md:w-1/2 md:pl-0">
-                <img src="{{ asset('media/projects/fruitmachine/FruitDemo.png') }}" class="object-cover w-full h-full transform translate-x-0 md:translate-x-0">
+                <img src="{{ asset('media/projects/fruitmachine/FruitDemo.png') }}" class="object-cover w-full h-full transform translate-x-0 md:translate-x-0" alt="Fruit Machine project">
             </div>
         </div>
         <!-- Block 4 -->
         <div class="flex flex-col items-center h-full py-10 overflow-hidden md:rounded-xl bg-gradient-to-tr from-blue-700 via-cyan-800 to-green-600 md:flex-row" data-rounded="rounded-xl" data-rounded-max="rounded-full">
             <div class="flex justify-start w-full overflow-hidden md:w-1/2 md:pr-0">
-                <img src="{{ asset('media/projects/monkeychat/monkeychat.png') }}" class="object-cover w-full h-full transform translate-x-0 md:translate-x-0">
+                <img src="{{ asset('media/projects/monkeychat/monkeychat.png') }}" class="object-cover w-full h-full transform translate-x-0 md:translate-x-0" alt="Monkey Chat project">
             </div>
             <div class="flex flex-col items-center justify-center w-full h-full py-5 pl-16 pr-12 mb-10 md:w-1/2 md:mb-0 md:items-start md:pl-16 lg:pl-10 lg:pr-12">
                 <h2 class="inline-block pb-2 mx-auto text-5xl font-bold leading-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-green-400 md:mx-0">Monkey Chat</h2>
                 <h3 class="text-5xl font-bold leading-none text-white">PHP Chat Site.</h3>
                 <p class="max-w-sm my-8 text-center text-white opacity-75 md:text-left lg:text-lg md:max-w-none">A chat site for children to keep up with their friends in a safe online environment. My A-level computer science project.</p>
-                <a href="{{ route('projects-view', 'monkey-chat') }}" class="px-6 py-2 text-lg font-medium text-white hover:text-green-300 border-2 border-white hover:border-green-300 rounded-full" data-rounded="rounded-full">Learn More</a>
+                <a href="{{ route('projects-view', 'monkey-chat') }}" class="px-6 py-2 text-lg font-medium text-white hover:text-green-300 border-2 border-white hover:border-green-300 rounded-full" data-rounded="rounded-full" aria-label="Learn more about the Monkey Chat project">Monkey Chat</a>
             </div>
         </div>
     </div>
@@ -88,52 +86,11 @@
     <div class="container max-w-6xl mx-auto">
         <div class="grid grid-cols-4 gap-10 mt-0 sm:grid-cols-8 lg:grid-cols-12 sm:px-8 xl:px-0">
             <div class="relative flex flex-col items-center justify-between sm:col-start-3 lg:col-start-5 col-span-4 px-8 py-12 space-y-4 overflow-hidden transition-shadow duration-200 bg-gradient-to-br from-blue-700 to-green-500 shadow-xl hover:shadow-2xl rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full">
-                <img src="{{ asset('media/projects/opensource/ban-reason-modal.jpg') }}">
-                <h4 class="text-xl font-medium text-white">Ban Reason<br></h4>
+                <img src="{{ asset('media/projects/opensource/ban-reason-modal.jpg') }}" alt="Ban Reason project">
+                <h3 class="text-xl font-medium text-white">Ban Reason<br></h3>
                 <p class="text-base text-center text-gray-100">Allow moderators to provide a reason when they ban a user.</p>
                 <a class="text-sm text-green-300 hover:text-green-200" href="https://github.com/laravelio/laravel.io/pull/927">View on GitHub</a>
             </div>
-
-{{--            <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full">--}}
-{{--                <div class="p-3 text-white bg-blue-500 rounded-full" data-primary="blue-500" data-rounded="rounded-full">--}}
-{{--                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M18 8a3 3 0 0 1 0 6"></path><path d="M10 8v11a1 1 0 0 1 -1 1h-1a1 1 0 0 1 -1 -1v-5"></path><path d="M12 8h0l4.524 -3.77a0.9 .9 0 0 1 1.476 .692v12.156a0.9 .9 0 0 1 -1.476 .692l-4.524 -3.77h-8a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h8"></path></svg>--}}
-{{--                </div>--}}
-{{--                <h4 class="text-xl font-medium text-gray-700">Notifications</h4>--}}
-{{--                <p class="text-base text-center text-gray-500">Send out notifications to all your customers to keep them engaged.</p>--}}
-{{--            </div>--}}
-
-{{--            <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full">--}}
-{{--                <div class="p-3 text-white bg-blue-500 rounded-full" data-primary="blue-500" data-rounded="rounded-full">--}}
-{{--                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><polyline points="12 3 20 7.5 20 16.5 12 21 4 16.5 4 7.5 12 3"></polyline><line x1="12" y1="12" x2="20" y2="7.5"></line><line x1="12" y1="12" x2="12" y2="21"></line><line x1="12" y1="12" x2="4" y2="7.5"></line><line x1="16" y1="5.25" x2="8" y2="9.75"></line></svg>--}}
-{{--                </div>--}}
-{{--                <h4 class="text-xl font-medium text-gray-700">Bundles</h4>--}}
-{{--                <p class="text-base text-center text-gray-500">High-quality bundles of awesome tools to help you out.</p>--}}
-{{--            </div>--}}
-
-{{--            <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full">--}}
-{{--                <div class="p-3 text-white bg-blue-500 rounded-full" data-primary="blue-500" data-rounded="rounded-full">--}}
-{{--                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M8 9l3 3l-3 3"></path><line x1="13" y1="15" x2="16" y2="15"></line><rect x="3" y="4" width="18" height="16" rx="2"></rect></svg>--}}
-{{--                </div>--}}
-{{--                <h4 class="text-xl font-medium text-gray-700">Developer Tools</h4>--}}
-{{--                <p class="text-base text-center text-gray-500">Developer tools to help grow your application and keep it up-to-date.</p>--}}
-{{--            </div>--}}
-
-{{--            <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full">--}}
-{{--                <div class="p-3 text-white bg-blue-500 rounded-full" data-primary="blue-500" data-rounded="rounded-full">--}}
-{{--                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><line x1="9.5" y1="11" x2="9.51" y2="11"></line><line x1="14.5" y1="11" x2="14.51" y2="11"></line><path d="M9.5 15a3.5 3.5 0 0 0 5 0"></path><path d="M7 5h1v-2h8v2h1a3 3 0 0 1 3 3v9a3 3 0 0 1 -3 3v1h-10v-1a3 3 0 0 1 -3 -3v-9a3 3 0 0 1 3 -3" class=""></path></svg>--}}
-{{--                </div>--}}
-{{--                <h4 class="text-xl font-medium text-gray-700">Building Blocks</h4>--}}
-{{--                <p class="text-base text-center text-gray-500">The right kind of building blocks to take your company to the next level.</p>--}}
-{{--            </div>--}}
-
-{{--            <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full">--}}
-{{--                <div class="p-3 text-white bg-blue-500 rounded-full" data-primary="blue-500" data-rounded="rounded-full">--}}
-{{--                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><line x1="15" y1="5" x2="15" y2="7"></line><line x1="15" y1="11" x2="15" y2="13"></line><line x1="15" y1="17" x2="15" y2="19"></line><path d="M5 5h14a2 2 0 0 1 2 2v3a2 2 0 0 0 0 4v3a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-3a2 2 0 0 0 0 -4v-3a2 2 0 0 1 2 -2"></path></svg>--}}
-{{--                </div>--}}
-{{--                <h4 class="text-xl font-medium text-gray-700">Coupons</h4>--}}
-{{--                <p class="text-base text-center text-gray-500">Coupons system to provide special offers and discounts for your app.</p>--}}
-{{--            </div>--}}
-
         </div>
     </div>
 </section>
