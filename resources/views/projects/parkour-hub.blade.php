@@ -45,12 +45,13 @@
 <section class="w-full px-8 py-16 bg-gray-700 xl:px-0 tails-relative">
     <div class="flex flex-col max-w-6xl mx-auto md:flex-row">
         <div class="w-full pr-5 md:w-1/5 xl:pr-12">
-            <h2 class="text-2xl font-bold leading-7 text-white">A valuable learning experience.<br></h2>
+            <h2 class="text-2xl font-bold leading-7 text-white">A responsive SaaS platform.<br></h2>
         </div>
 
         <div class="w-full mt-5 md:mt-0 md:w-4/5 md:pl-2">
             <p class="text-base font-normal leading-none text-gray-300 md:text-lg">
-                Parkour Hub is a side project I worked on to improve my Laravel knowledge. It also taught me a lot about managing a complex project from deciding which features to work on first to testing and keeping on top of bugs.<br></p>
+                Parkour Hub is built upon the foundation of a global spots map. Users can submit and search for spots on this map. A host of other features are available that connect with the spots.
+            </p>
         </div>
     </div>
 </section>

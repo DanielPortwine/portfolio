@@ -11,7 +11,7 @@
             <span class="block">Monkey Chat</span>
         </h1>
         <p class="w-full mx-auto text-base text-left text-gray-300 md:max-w-md sm:text-lg lg:text-2xl md:max-w-3xl md:text-center">
-            A chat site for children to keep up with their friends in a safe online environment. My A-level computer science project.
+            A chat site for kids to keep up with their friends in a safe online environment. My A-level computer science project.
         </p>
     </div>
     <div class="container items-center max-w-7xl px-5 mx-auto mt-16 text-center">
@@ -41,7 +41,8 @@
         </div>
         <div class="w-full mt-5 md:mt-0 md:w-4/5 md:pl-2">
             <p class="text-base font-normal leading-none text-gray-300 md:text-lg">
-                Parkour Hub is a side project I worked on to improve my Laravel knowledge. It also taught me a lot about managing a complex project from deciding which features to work on first to testing and keeping on top of bugs.<br></p>
+                Monkey Chat is the product of my A-level computer science project. It is a chat site for kids to stay connected with their friends in a safe online environment. Child accounts have to be created by a Parent account and there are features to respond to inappropriate messages.
+            </p>
         </div>
     </div>
 </section>
