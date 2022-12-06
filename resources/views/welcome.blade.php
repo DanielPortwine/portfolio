@@ -98,7 +98,7 @@
                             <h4 class="font-bold text-white">Jacob<br></h4>
                         </div>
                     </div>
-                    <blockquote class="mt-8 text-lg text-gray-300">"Ah mint. Thanks for all your help! Everyone is chuffed to bits with it!"</blockquote>
+                    <blockquote class="mt-8 text-lg text-gray-300">"Thanks for all your help! Everyone is chuffed to bits with it!"</blockquote>
                 </div>
             </div>
         </div>
