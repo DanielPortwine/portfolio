@@ -19,7 +19,7 @@
             <div class="flex flex-col items-center justify-center w-full h-full py-5 pl-16 pr-16 mb-10 md:w-1/2 md:mb-0 md:items-start md:pl-10 lg:pl-16 lg:pr-10">
                 <h2 class="inline-block mx-auto text-5xl font-bold leading-tight text-transparent sm:text-6xl lg:text-7xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400 md:mx-0">Parkour Hub
                 </h2>
-                <h3 class="text-5xl font-bold leading-none text-white sm:text-6xl lg:text-7xl">Spot sharing platform.</h3>
+                <h3 class="text-5xl font-bold leading-none text-white sm:text-6xl lg:text-5xl">Spot sharing platform.</h3>
                 <p class="max-w-sm my-8 text-center text-white opacity-75 md:text-left lg:text-lg md:max-w-none">Parkour Hub is a SaaS platform for parkour athletes to share their spots and engage with the community.</p>
                 <a href="{{ route('projects-view', 'parkour-hub') }}" class="px-6 py-2 text-lg font-medium text-white hover:text-green-300 border-2 border-white hover:border-green-300 rounded-full" data-rounded="rounded-full" aria-label="Learn more about the Parkour Hub project">Parkour Hub</a>
             </div>
@@ -49,7 +49,7 @@
             <div class="flex flex-col items-center justify-center w-full h-full py-5 pl-16 pr-16 mb-10 md:w-1/2 md:mb-0 md:items-start md:pl-10 lg:pl-16 lg:pr-0">
                 <h2 class="inline-block mx-auto text-5xl font-bold leading-tight text-transparent sm:text-6xl lg:text-7xl bg-clip-text bg-gradient-to-r from-purple-200 to-pink-100 md:mx-0">Fruit Machine<br></h2>
                 <h3 class="max-w-lg text-5xl font-bold leading-tight text-white">Fun little PHP project.</h3>
-                <p class="max-w-sm my-8 text-center text-white opacity-75 md:text-left lg:text-lg md:max-w-none tails-relative">One of my first PHP projects, before learning Laravel. A fun fruit machine game with power-ups and penalties.<br></p>
+                <p class="max-w-sm my-8 text-center text-white opacity-75 md:text-left lg:text-lg md:max-w-none tails-relative">A fun fruit machine game with power-ups and penalties.</p>
                 <div class="flex flex-row gap-4 flex-wrap justify-center">
                     <a href="{{ route('projects-view', 'fruit-machine') }}" class="px-6 py-2 text-lg font-medium text-white hover:text-green-300 border-2 border-white hover:border-green-300 rounded-full" data-rounded="rounded-full" aria-label="Learn more about the Fruit Machine project">Fruit Machine</a>
                     <a href="https://github.com/DanielPortwine/Fruit-Machine" class="px-2 py-2 text-lg font-medium text-white hover:text-green-300 border-2 border-white hover:border-green-300 rounded-full" data-rounded="rounded-full" target="_blank" aria-label="View the Fruit Machine project on GitHub">
@@ -69,7 +69,7 @@
             <div class="flex flex-col items-center justify-center w-full h-full py-5 pl-16 pr-12 mb-10 md:w-1/2 md:mb-0 md:items-start md:pl-16 lg:pl-10 lg:pr-12">
                 <h2 class="inline-block pb-2 mx-auto text-5xl font-bold leading-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-green-400 md:mx-0">Monkey Chat</h2>
                 <h3 class="text-5xl font-bold leading-none text-white">PHP Chat Site.</h3>
-                <p class="max-w-sm my-8 text-center text-white opacity-75 md:text-left lg:text-lg md:max-w-none">A chat site for children to keep up with their friends in a safe online environment. My A-level computer science project.</p>
+                <p class="max-w-sm my-8 text-center text-white opacity-75 md:text-left lg:text-lg md:max-w-none">A chat site for kids to keep up with their friends in a safe online environment.</p>
                 <a href="{{ route('projects-view', 'monkey-chat') }}" class="px-6 py-2 text-lg font-medium text-white hover:text-green-300 border-2 border-white hover:border-green-300 rounded-full" data-rounded="rounded-full" aria-label="Learn more about the Monkey Chat project">Monkey Chat</a>
             </div>
         </div>

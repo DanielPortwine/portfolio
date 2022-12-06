@@ -8,12 +8,12 @@
         <div class="relative flex flex-col items-center lg:flex-row">
             <div class="flex justify-start w-full md:py-12 lg:py-32 lg:w-1/3">
                 <div class="flex flex-col items-center justify-center w-full lg:items-start lg:max-w-lg">
-                    <p class="inline-block mb-4 text-xs font-medium tracking-wider text-green-400 uppercase" data-primary="green-400">
-                        Laravel Development.
+                    <p class="inline-block mb-4 text-md font-medium tracking-wider text-green-400 uppercase" data-primary="green-400">
+                        Daniel Portwine
                     </p>
                     <h5 class="text-6xl font-thin leading-none text-center mb-7 lg:text-left md:text-7xl">
-                        <span class="block">Daniel</span>
-                        <span class="block font-bold">Portwine</span>
+                        <span class="block">Web App</span>
+                        <span class="block font-bold">Developer</span>
                     </h5>
                     <a class="inline-flex items-center justify-center px-8 py-4 mr-6 text-xl font-medium tracking-wide text-black transition duration-200 bg-green-400 hover:bg-green-500 focus:shadow-outline focus:outline-none" data-primary="green-400" data-rounded="" href="{{ route('contact') }}">
                         Get started
@@ -34,49 +34,25 @@
         </div>
     </div>
 </section>
-{{--<section class="bg-gray-700 pt-7 pb-14">--}}
-{{--    <div class="container px-8 mx-auto sm:px-12 lg:px-20">--}}
-{{--        <div class="flex grid items-center justify-center grid-cols-4 grid-cols-12 gap-y-8">--}}
-{{--            <a class="flex items-center justify-center col-span-6 sm:col-span-4 md:col-span-3 xl:col-span-2" href="https://laravel.com/">--}}
-{{--                <img src="{{ asset('media/laravel.png') }}" alt="Laravel" class="block object-contain h-9">--}}
-{{--            </a>--}}
-{{--            <a class="flex items-center justify-center col-span-6 sm:col-span-4 md:col-span-3 xl:col-span-2" href="https://www.php.net/">--}}
-{{--                <img src="{{ asset('media/php.png') }}" alt="PHP" class="block object-contain h-9">--}}
-{{--            </a>--}}
-{{--            <a class="flex items-center justify-center col-span-6 sm:col-span-4 md:col-span-3 xl:col-span-2" href="https://www.mysql.com/">--}}
-{{--                <img src="{{ asset('media/mysql.png') }}" alt="MySQL" class="block object-contain h-10">--}}
-{{--            </a>--}}
-{{--            <a class="flex items-center justify-center col-span-6 sm:col-span-4 md:col-span-6 xl:col-span-2" href="https://aws.amazon.com/">--}}
-{{--                <img src="{{ asset('media/aws.png') }}" alt="AWS" class="block object-contain h-9">--}}
-{{--            </a>--}}
-{{--            <a class="flex items-center justify-center col-span-6 sm:col-span-4 md:col-span-6 xl:col-span-2" href="https://vuejs.org/">--}}
-{{--                <img src="{{ asset('media/vue.png') }}" alt="Vue" class="block object-contain h-9">--}}
-{{--            </a>--}}
-{{--            <a class="flex items-center justify-center col-span-6 sm:col-span-4 md:col-span-3 xl:col-span-2" href="https://developers.google.com/">--}}
-{{--                <img src="https://cdn.devdojo.com/tails/images/google.svg" alt="Google" class="block object-contain h-9">--}}
-{{--            </a>--}}
-{{--        </div>--}}
-{{--    </div>--}}
-{{--</section>--}}
-<section class="py-20 bg-gray-700">
-    <div class="container items-center max-w-6xl px-4 px-10 mx-auto sm:px-20 md:px-32 lg:px-16">
+<section class="py-8 lg:py-20 bg-gray-700">
+    <div class="container items-center max-w-7xl px-4 mx-auto sm:px-20 md:px-32 lg:px-16">
         <div class="flex flex-wrap items-center -mx-3">
             <div class="order-1 w-full px-3 lg:w-1/2 lg:order-0">
                 <div class="w-full lg:max-w-md tails-relative">
                     <h2 class="mb-4 text-3xl font-bold text-white leading-tight tracking-tight sm:text-4xl font-heading">Secure web apps to solve your problems!</h2>
-                    <p class="mb-4 font-medium tracking-tight text-gray-300 xl:mb-6">I write efficient, secure code in Laravel/PHP. Some of the areas I specialise in are:</p>
+                    <p class="mb-4 font-medium tracking-tight text-gray-300 xl:mb-6">Whether you need to set up some automation for administrative tasks or you have a brilliant idea for the next big thing.</p>
                     <ul>
                         <li class="flex items-center py-2 space-x-4 xl:py-3">
-                            <svg class="w-8 h-8 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path></svg>
-                            <span class="font-medium text-white">Bespoke Web Software</span>
-                        </li>
-                        <li class="flex items-center py-2 space-x-4 xl:py-3">
                             <svg class="w-8 h-8 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path></svg>
-                            <span class="font-medium text-white">API Integrations</span>
+                            <span class="font-medium text-white">Software as a Service (SaaS)</span>
                         </li>
                         <li class="flex items-center py-2 space-x-4 xl:py-3">
                             <svg class="w-8 h-8 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
-                            <span class="font-medium text-white">Testing and Security</span>
+                            <span class="font-medium text-white">Intranets</span>
+                        </li>
+                        <li class="flex items-center py-2 space-x-4 xl:py-3">
+                            <svg class="w-8 h-8 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path></svg>
+                            <span class="font-medium text-white">API Integrations</span>
                         </li>
                     </ul>
                 </div>
@@ -87,8 +63,8 @@
         </div>
     </div>
 </section>
-<section class="flex items-center justify-center py-20 bg-gray-700 min-w-screen">
-    <div class="px-16 bg-gray-700">
+<section class="flex items-center justify-center py-8 bg-gray-700 mx-auto max-w-7xl">
+    <div class="px-4 lg:px-16 bg-gray-700">
         <div class="container flex flex-col items-start mx-auto lg:items-center">
             <p class="relative flex items-start justify-start w-full text-lg font-bold tracking-wider uppercase lg:justify-center lg:items-center text-green-500" data-primary="purple-500">Don't just take my word for it</p>
             <h2 class="relative flex items-start justify-start w-full max-w-3xl text-5xl text-white font-bold lg:justify-center">
@@ -148,7 +124,7 @@
             <a class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 transition-shadow duration-200 bg-gradient-to-tr from-cyan-500 to-green-500 bg-top bg-cover shadow-xl hover:shadow-2xl rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full" href="{{ route('projects-view', 'fruit-machine') }}">
                 <img src="{{ asset('media/projects/fruitmachine/FruitDemo.png') }}" alt="Fruit Machine project">
                 <h3 class="text-xl font-medium text-white">Fruit Machine<br></h3>
-                <p class="text-base text-center text-gray-100">One of my first PHP projects, before learning Laravel. A fun fruit machine game with power-ups and penalties.</p>
+                <p class="text-base text-center text-gray-100">A fun fruit machine game with power-ups and penalties.</p>
             </a>
         </div>
         <div class="w-full mt-10 mb-2 text-center">
@@ -157,8 +133,8 @@
     </div>
 </section>
 <section class="w-full pt-12 pb-16 bg-gray-700">
-    <div class="relative px-12 mx-auto max-w-7xl">
-        <div class="relative grid items-center grid-cols-1 gap-10 p-12 overflow-hidden shadow-2xl md:p-16 lg:p-20 xl:p-24 bg-gradient-to-r from-green-400 to-green-500 rounded-2xl md:grid-cols-5 lg:gap-0" data-primary="green-400" data-rounded="rounded-2xl" data-rounded-max="rounded-full">
+    <div class="px-8 mx-auto max-w-7xl">
+        <div class="relative grid items-center grid-cols-1 p-12 overflow-hidden shadow-2xl md:p-16 lg:p-20 xl:p-24 bg-gradient-to-r from-green-400 to-green-500 rounded-2xl md:grid-cols-5 lg:gap-0" data-primary="green-400" data-rounded="rounded-2xl" data-rounded-max="rounded-full">
             <div class="absolute top-0 right-0">
                 <svg viewBox="0 0 487 487" class="object-cover w-full h-full" xmlns="http://www.w3.org/2000/svg"><path d="M487 486.7c-66.1-3.6-132.3-7.3-186.3-37s-95.9-85.3-126.2-137.2c-30.4-51.8-49.3-99.9-76.5-151.4C70.9 109.6 35.6 54.8.3 0H487v486.7z" fill="#FFF" fill-rule="nonzero" fill-opacity=".1"></path></svg>
             </div>

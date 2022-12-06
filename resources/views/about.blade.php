@@ -31,7 +31,7 @@
             <div class="flex flex-col justify-center mt-5 mb-8 md:mt-0 sm:w-1/2 md:w-7/12 sm:pr-16">
                 <p class="mb-2 text-sm font-semibold leading-none text-left uppercase text-green-500" data-primary="indigo-600">A-level Computer Science Project<br></p>
                 <h3 class="mt-2 text-2xl sm:text-left md:text-4xl text-white">PHP Chat Site<br></h3>
-                <p class="mt-5 text-lg text-gray-300 text md:text-left">For my A-level computer science project, I built a chat site for children to keep up with their friends in a safe online environment. This taught me a lot about how web apps function and PHP in particular.<br></p>
+                <p class="mt-5 text-lg text-gray-300 text md:text-left">For my A-level computer science project, I built a chat site for kids to keep up with their friends in a safe online environment. This taught me a lot about how web apps function and PHP in particular.</p>
             </div>
         </div>
         <div class="flex flex-col mb-8 animated fadeIn sm:flex-row">

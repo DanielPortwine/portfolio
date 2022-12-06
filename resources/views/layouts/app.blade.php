@@ -3,21 +3,21 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="@yield('description')I build bespoke web software using Laravel/PHP to expand the online service offering of businesses.">
+    <meta name="description" content="@yield('description')I build bespoke web apps (SaaS, Intranets, APIs) using Laravel, to expand the online service offering of businesses.">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@danielportwine">
-    <meta name="twitter:title" content="@stack('title') Daniel Portwine - Laravel Developer">
-    <meta name="twitter:description" content="I build bespoke web software using Laravel/PHP to expand the online service offering of businesses.">
+    <meta name="twitter:title" content="@stack('title') Daniel Portwine - Web App Developer">
+    <meta name="twitter:description" content="I build bespoke web apps (SaaS, Intranets, APIs) using Laravel, to expand the online service offering of businesses.">
     <meta name="twitter:image:src" content="{{ asset('media/og-image.png') }}">
     <meta property="og:site_name" content="Daniel Portwine">
-    <meta property="og:title" content="@stack('title') Daniel Portwine - Laravel Developer">
-    <meta property="og:description" content="@yield('description')I build bespoke web software using Laravel/PHP to expand the online service offering of businesses.">
+    <meta property="og:title" content="@stack('title') Daniel Portwine - Web App Developer">
+    <meta property="og:description" content="@yield('description')I build bespoke web apps (SaaS, Intranets, APIs) using Laravel, to expand the online service offering of businesses.">
     <meta property="og:url" content="https://danportwine.co.uk">
     <meta property="og:image" content="{{ asset('media/og-image.png') }}">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="600">
     @stack('seo')
-    <title>@stack('title')Daniel Portwine - Laravel Developer</title>
+    <title>@stack('title')Daniel Portwine - Web App Developer</title>
 
     <link rel="icon" type="image/x-icon" href="{{ asset('favicon.png') }}">
     @vite('resources/css/app.css')
