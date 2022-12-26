@@ -10,6 +10,15 @@ class ContactController extends Controller
 {
     public function send(ContactRequest $request)
     {
+        // custom spam protections
+        if ($request->post('first-name') === $request->post('last-name') &&
+            strpos($request->post('first-name'), 'Scuro') &&
+            $request->post('company') === 'google' &&
+            strpos($request->post('subject'), 'price')
+        ) {
+            return redirect()->route('contact-thanks')->withCookie(cookie('blocked', true, 86400));
+        }
+
         $sns = AWS::createClient('sns');
 
         $sns->publish([

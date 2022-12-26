@@ -60,42 +60,48 @@
             <p class="max-w-screen-md mx-auto mt-4 text-left text-gray-300 md:text-lg md:mt-6">
                 Fill out the form below or email <a class="text-green-300 hover:text-green-200" href="mailto:daniel@danportwine.co.uk">daniel@danportwine.co.uk</a> directly and I'll aim to get back to you within 48 hours.<br><br>Please provide as much information about your request as possible and a bit about yourself/your company so I can see if we'll be a good fit.<br></p>
         </div>
-        <form id="contact-form" class="grid max-w-3xl gap-4 mx-auto sm:grid-cols-2" method="post" action="{{ route('contact-send') }}">
-            <div class="">
-                <label for="first-name" class="inline-block mb-2 text-sm font-medium text-gray-300 sm:text-base">First name <sup class="text-red-500">*</sup></label>
-                <input name="first-name" id="first-name" class="w-full px-3 py-2 text-gray-800 transition duration-100 border rounded-md outline-none bg-gray-50 focus:ring ring-blue-300" maxlength="25" required>
+        @if(empty(Cookie::get('blocked')))
+            <form id="contact-form" class="grid max-w-3xl gap-4 mx-auto sm:grid-cols-2" method="post" action="{{ route('contact-send') }}">
+                <div class="">
+                    <label for="first-name" class="inline-block mb-2 text-sm font-medium text-gray-300 sm:text-base">First name <sup class="text-red-500">*</sup></label>
+                    <input name="first-name" id="first-name" class="w-full px-3 py-2 text-gray-800 transition duration-100 border rounded-md outline-none bg-gray-50 focus:ring ring-blue-300" maxlength="25" required>
+                </div>
+                <div class="">
+                    <label for="last-name" class="inline-block mb-2 text-sm font-medium text-gray-300 sm:text-base">Last name</label>
+                    <input name="last-name" id="last-name" class="w-full px-3 py-2 text-gray-800 transition duration-100 border rounded-md outline-none bg-gray-50 focus:ring ring-blue-300" maxlength="25">
+                </div>
+                <div class="sm:col-span-2">
+                    <label for="company" class="inline-block mb-2 text-sm font-medium text-gray-300 sm:text-base">Company</label>
+                    <input name="company" id="company" class="w-full px-3 py-2 text-gray-800 transition duration-100 border rounded-md outline-none bg-gray-50 focus:ring ring-blue-300" maxlength="50">
+                </div>
+                <div class="sm:col-span-2">
+                    <label for="email" class="inline-block mb-2 text-sm font-medium text-gray-300 sm:text-base">Email <sup class="text-red-500">*</sup></label>
+                    <input type="email" name="email" id="email" class="w-full px-3 py-2 text-gray-800 transition duration-100 border rounded-md outline-none bg-gray-50 focus:ring ring-blue-300" maxlength="150" required>
+                </div>
+                <div class="sm:col-span-2">
+                    <label for="subject" class="inline-block mb-2 text-sm font-medium text-gray-300 sm:text-base">Subject <sup class="text-red-500">*</sup></label>
+                    <input name="subject" id="subject" class="w-full px-3 py-2 text-gray-800 transition duration-100 border rounded-md outline-none bg-gray-50 focus:ring ring-blue-300" maxlength="50" required>
+                </div>
+                <div class="sm:col-span-2">
+                    <label for="message" class="inline-block mb-2 text-sm font-medium text-gray-300 sm:text-base">Message <sup class="text-red-500">*</sup></label>
+                    <textarea name="message" id="message" class="w-full h-64 px-3 py-2 text-gray-800 transition duration-100 border rounded-md outline-none bg-gray-50 focus:ring ring-blue-300" maxlength="5000" required></textarea>
+                </div>
+                <div class="flex flex-col items-left justify-between sm:col-span-2">
+                    <button type="submit" id="contact-hidden-submit" class="hidden"></button>
+                    <button type="submit" class="inline-block px-8 py-3 text-sm text-center text-black transition duration-100 rounded-md outline-none md:text-base bg-green-500 active:bg-green-600 hover:bg-green-400 ring-green-300 disabled:bg-green-300 g-recaptcha"
+                            id="contact-submit"
+                            data-callback="callbackThen"
+                            data-sitekey="{{ config('recaptcha.api_site_key') }}"
+                    >
+                        Send Message
+                    </button>
+                </div>
+            </form>
+        @else
+            <div class="max-w-3xl mx-auto text-white text-xl">
+                GG bro. Send me an email if you're serious about working together: <a class="text-green-300 hover:text-green-200" href="mailto:daniel@danportwine.co.uk">daniel@danportwine.co.uk</a>
             </div>
-            <div class="">
-                <label for="last-name" class="inline-block mb-2 text-sm font-medium text-gray-300 sm:text-base">Last name</label>
-                <input name="last-name" id="last-name" class="w-full px-3 py-2 text-gray-800 transition duration-100 border rounded-md outline-none bg-gray-50 focus:ring ring-blue-300" maxlength="25">
-            </div>
-            <div class="sm:col-span-2">
-                <label for="company" class="inline-block mb-2 text-sm font-medium text-gray-300 sm:text-base">Company</label>
-                <input name="company" id="company" class="w-full px-3 py-2 text-gray-800 transition duration-100 border rounded-md outline-none bg-gray-50 focus:ring ring-blue-300" maxlength="50">
-            </div>
-            <div class="sm:col-span-2">
-                <label for="email" class="inline-block mb-2 text-sm font-medium text-gray-300 sm:text-base">Email <sup class="text-red-500">*</sup></label>
-                <input type="email" name="email" id="email" class="w-full px-3 py-2 text-gray-800 transition duration-100 border rounded-md outline-none bg-gray-50 focus:ring ring-blue-300" maxlength="150" required>
-            </div>
-            <div class="sm:col-span-2">
-                <label for="subject" class="inline-block mb-2 text-sm font-medium text-gray-300 sm:text-base">Subject <sup class="text-red-500">*</sup></label>
-                <input name="subject" id="subject" class="w-full px-3 py-2 text-gray-800 transition duration-100 border rounded-md outline-none bg-gray-50 focus:ring ring-blue-300" maxlength="50" required>
-            </div>
-            <div class="sm:col-span-2">
-                <label for="message" class="inline-block mb-2 text-sm font-medium text-gray-300 sm:text-base">Message <sup class="text-red-500">*</sup></label>
-                <textarea name="message" id="message" class="w-full h-64 px-3 py-2 text-gray-800 transition duration-100 border rounded-md outline-none bg-gray-50 focus:ring ring-blue-300" maxlength="5000" required></textarea>
-            </div>
-            <div class="flex flex-col items-left justify-between sm:col-span-2">
-                <button type="submit" id="contact-hidden-submit" class="hidden"></button>
-                <button type="submit" class="inline-block px-8 py-3 text-sm text-center text-black transition duration-100 rounded-md outline-none md:text-base bg-green-500 active:bg-green-600 hover:bg-green-400 ring-green-300 disabled:bg-green-300 g-recaptcha"
-                        id="contact-submit"
-                        data-callback="callbackThen"
-                        data-sitekey="{{ config('recaptcha.api_site_key') }}"
-                >
-                    Send Message
-                </button>
-            </div>
-        </form>
+        @endif
         <p class="max-w-3xl mx-auto mt-5 text-xs text-gray-300">
             Please allow up to 48 hours for a response.
         </p>
