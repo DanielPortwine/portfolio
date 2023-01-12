@@ -127,3 +127,15 @@
 .bg-facebook:hover {
     background: #003e80;
 }
+.bg-filament {
+    background-color: #f59e0b;
+}
+.bg-filament:hover {
+    background-color: #c47f08;
+}
+.bg-livewire {
+    background-color: #fb70a9;
+}
+.bg-livewire:hover {
+    background-color: #fb5198;
+}

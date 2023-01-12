@@ -111,15 +111,15 @@
             <p class="mt-2 text-lg text-center text-gray-300">Check out some of my previous projects below.</p>
         </h2>
         <div class="grid grid-cols-4 gap-8 mt-10 sm:grid-cols-8 lg:grid-cols-12 sm:px-8 xl:px-0">
+            <a class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 transition-shadow duration-200 bg-gradient-to-tr from-cyan-500 to-green-500 bg-top bg-cover shadow-xl hover:shadow-2xl rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full" href="{{ route('projects-view', 'shoot-hub') }}">
+                <img src="{{ asset('media/projects/shoothub/CalendarDemo.png') }}" alt="Social project">
+                <h3 class="text-xl font-medium text-white">Shoot Hub<br></h3>
+                <p class="text-base text-center text-gray-100">An intranet with functionality catered for shooting clubs.</p>
+            </a>
             <a class="relative flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 overflow-hidden transition-shadow duration-200 bg-gradient-to-tr from-cyan-500 to-green-500 bg-top bg-cover shadow-xl hover:shadow-2xl rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full" href="{{ route('projects-view', 'parkour-hub') }}">
                 <img src="{{ asset('media/projects/parkourhub/MapDemo.png') }}" alt="Parkour Hub project">
                 <h3 class="text-xl font-medium text-white text-center">Parkour Hub<br></h3>
                 <p class="text-base text-center text-gray-100">Parkour Hub is a SaaS platform for parkour athletes to share their spots and engage with the community.</p>
-            </a>
-            <a class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 transition-shadow duration-200 bg-gradient-to-tr from-cyan-500 to-green-500 bg-top bg-cover shadow-xl hover:shadow-2xl rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full" href="{{ route('projects-view', 'social') }}">
-                <img src="{{ asset('media/projects/social/SocialDemo.png') }}" alt="Social project">
-                <h3 class="text-xl font-medium text-white">Social Platform<br></h3>
-                <p class="text-base text-center text-gray-100">A Twitter-inspired social platform Single Page Application built with Laravel &amp; Vue.</p>
             </a>
             <a class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 transition-shadow duration-200 bg-gradient-to-tr from-cyan-500 to-green-500 bg-top bg-cover shadow-xl hover:shadow-2xl rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full" href="{{ route('projects-view', 'fruit-machine') }}">
                 <img src="{{ asset('media/projects/fruitmachine/FruitDemo.png') }}" alt="Fruit Machine project">
