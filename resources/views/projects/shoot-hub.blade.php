@@ -11,7 +11,7 @@
             <span class="block">Shoot Hub</span>
         </h1>
         <p class="w-full mx-auto text-base text-left text-gray-300 md:max-w-md sm:text-lg lg:text-2xl md:max-w-3xl md:text-center">
-            An intranet with functionality catered for shooting clubs.
+            An intranet for shooting clubs to streamline their administrative tasks.
         </p>
 {{--        <a href="https://github.com/DanielPortwine/Social" class="w-full mx-auto text-white hover:text-gray-200">View on GitHub</a>--}}
     </div>

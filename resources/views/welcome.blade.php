@@ -114,7 +114,7 @@
             <a class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 transition-shadow duration-200 bg-gradient-to-tr from-cyan-500 to-green-500 bg-top bg-cover shadow-xl hover:shadow-2xl rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full" href="{{ route('projects-view', 'shoot-hub') }}">
                 <img src="{{ asset('media/projects/shoothub/CalendarDemo.png') }}" alt="Social project">
                 <h3 class="text-xl font-medium text-white">Shoot Hub<br></h3>
-                <p class="text-base text-center text-gray-100">An intranet with functionality catered for shooting clubs.</p>
+                <p class="text-base text-center text-gray-100">An intranet for shooting clubs to streamline their administrative tasks.</p>
             </a>
             <a class="relative flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 overflow-hidden transition-shadow duration-200 bg-gradient-to-tr from-cyan-500 to-green-500 bg-top bg-cover shadow-xl hover:shadow-2xl rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full" href="{{ route('projects-view', 'parkour-hub') }}">
                 <img src="{{ asset('media/projects/parkourhub/MapDemo.png') }}" alt="Parkour Hub project">

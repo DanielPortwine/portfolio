@@ -22,7 +22,7 @@
             <div class="flex flex-col items-center justify-center w-full h-full py-5 pl-16 pr-12 mb-10 md:w-1/2 md:mb-0 md:items-start md:pl-16 lg:pl-10 lg:pr-12">
                 <h2 class="inline-block pb-2 mx-auto text-5xl font-bold leading-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-400 md:mx-0">Shoot Hub</h2>
                 <h3 class="text-5xl font-bold leading-none text-white">Shooting Club intranet.</h3>
-                <p class="max-w-sm my-8 text-center text-white opacity-75 md:text-left lg:text-lg md:max-w-none">An intranet with functionality catered for shooting clubs.</p>
+                <p class="max-w-sm my-8 text-center text-white opacity-75 md:text-left lg:text-lg md:max-w-none">An intranet for shooting clubs to streamline their administrative tasks.</p>
                 <div class="flex flex-row gap-4 flex-wrap justify-center">
                     <a href="{{ route('projects-view', 'shoot-hub') }}" class="px-6 py-2 text-lg font-medium text-white hover:text-green-300 border-2 border-white hover:border-green-300 rounded-full" data-rounded="rounded-full" aria-label="Learn more about the Social project">Shoot Hub</a>
 {{--                    <a href="https://github.com/DanielPortwine/Social" class="px-2 py-2 text-lg font-medium text-white hover:text-green-300 border-2 border-white hover:border-green-300 rounded-full" data-rounded="rounded-full" target="_blank" aria-label="View the Social project on GitHub">--}}
