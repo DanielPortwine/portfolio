@@ -12,9 +12,7 @@ class ContactController extends Controller
     {
         // custom spam protections
         if ($request->post('first-name') === $request->post('last-name') &&
-            strpos($request->post('first-name'), 'Scuro') &&
-            $request->post('company') === 'google' &&
-            strpos($request->post('subject'), 'price')
+            $request->post('company') === 'google'
         ) {
             return redirect()->route('contact-thanks')->withCookie(cookie('blocked', true, 86400));
         }

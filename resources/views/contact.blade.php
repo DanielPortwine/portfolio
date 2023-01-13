@@ -97,10 +97,6 @@
                     </button>
                 </div>
             </form>
-        @else
-            <div class="max-w-3xl mx-auto text-white text-xl">
-                GG bro. Send me an email if you're serious about working together: <a class="text-green-300 hover:text-green-200" href="mailto:daniel@danportwine.co.uk">daniel@danportwine.co.uk</a>
-            </div>
         @endif
         <p class="max-w-3xl mx-auto mt-5 text-xs text-gray-300">
             Please allow up to 48 hours for a response.
