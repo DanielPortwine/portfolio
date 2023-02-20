@@ -3,6 +3,13 @@
 return [
     'posts' => [
         [
+            'title' => 'What is Laravel?',
+            'slug' => 'what-is-laravel',
+            'date' => '20 Feb 2023',
+            'description' => 'You may have heard of Laravel but never quite understood what it actually is. In today\'s article, I\'ll explain what Laravel is and why it\'s so popular with developers. Let\'s dive in.',
+            'image' => 'media/blog/whatIsLaravel.png',
+        ],
+        [
             'title' => 'Web vs Native Apps',
             'slug' => 'web-vs-native-apps',
             'date' => '6 Feb 2023',
