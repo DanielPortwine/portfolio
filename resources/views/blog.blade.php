@@ -18,7 +18,7 @@
             @foreach(config('blog.posts') as $post)
                 <div class="relative {{--p-4 bg-gray-600--}} {{--bg-gradient-to-br from-blue-700 to-green-500--}} {{--shadow-xl rounded-xl--}}">
                     <a href="{{ route('blog-view', $post['slug']) }}" class="block overflow-hidden group rounded-xl">
-                        <img src="{{ $post['image'] }}" class="object-cover w-full h-56 sm:h-64" alt="">
+                        <img src="{{ asset($post['image']) }}" class="object-cover w-full h-56 sm:h-64" alt="">
                     </a>
                     <div class="mt-5">
                         <p class="uppercase font-semibold text-xs mb-2.5 text-green-500">{{ $post['date'] }}</p>
