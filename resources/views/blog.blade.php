@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@push('title')Projects | @endpush
+@push('title')Blog | @endpush
 
 @section('description')View my previous projects and open source contributions. | @endsection
 

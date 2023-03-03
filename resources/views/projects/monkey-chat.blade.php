@@ -85,4 +85,7 @@
         </div>
     </div>
 </section>
+
+@include('components.testimonial')
+
 @endsection
