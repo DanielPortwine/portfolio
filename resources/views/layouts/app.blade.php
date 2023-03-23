@@ -28,6 +28,15 @@
     @yield('recaptcha')
 
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CTSLPTEE6Y"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-CTSLPTEE6Y');
+</script>
 <body class="bg-gray-700">
 <!-- Header -->
 <section class="w-full text-gray-700 bg-gray-800">
