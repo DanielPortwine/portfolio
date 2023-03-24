@@ -58,7 +58,7 @@
     <x-showcase-card src="media/projects/shoothub/AdminDemo.png" title="Admin">
         Optimise club performance with crucial data and key metrics right at your fingertips.
     </x-showcase-card>
-    <x-showcase-card src="media/projects/shoothub/VisitsDemo.png" title="Guest Days">
+    <x-showcase-card src="media/projects/shoothub/GuestDemo.png" title="Guest Days">
         Effortlessly monitor guest attendance with seamless tracking capabilities.
     </x-showcase-card>
     <x-showcase-card src="media/projects/shoothub/FacebookDemo.png" title="Facebook Login">
