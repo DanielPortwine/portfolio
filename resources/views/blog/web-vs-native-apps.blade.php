@@ -7,7 +7,7 @@
 @section('content')
 <section class="h-auto bg-gray-700 py-12 md:py-20">
     <div class="md:text-center max-w-7xl mx-auto xl:px-0 px-5">
-        <p class="font-medium mb-4 sm:text-lg uppercase tracking-wide text-green-500">Web vs Native Apps<br></p>
+        <p class="font-medium mb-4 sm:text-lg uppercase tracking-wide text-green-400">Web vs Native Apps<br></p>
         <h1 class="text-4xl font-extrabold tracking-normal text-white sm:text-5xl lg:text-7xl md:leading-none">Web App vs Native App: Which one do you need?<br></h1>
         <p class="max-w-none mx-auto mt-3 text-xl font-normal text-gray-300 sm:mt-5 sm:text-xl md:mt-5 lg:text-2xl md:max-w-4xl">6 Feb 2023<br></p>
     </div>
@@ -96,13 +96,11 @@
         <p>
             Ultimately, the specific needs and requirements of your app will play a significant role in determining the best approach for your project.
         </p><br>
-
-        <p>
-            If you're looking for a web app, <a href="{{ route('contact') }}" class="text-green-300 hover:text-green-200">get in touch now</a>.
-        </p>
     </div>
 </section>
 
-@include('components.testimonial')
+<x-project-cta subtitle="Like what you read?" />
+
+<x-testimonial />
 
 @endsection

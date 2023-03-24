@@ -7,7 +7,7 @@
 @section('content')
 <section class="h-auto bg-gray-700 py-12 md:py-20">
     <div class="md:text-center max-w-7xl mx-auto xl:px-0 px-5">
-        <p class="font-medium mb-4 sm:text-lg uppercase tracking-wide text-green-500">Laravel<br></p>
+        <p class="font-medium mb-4 sm:text-lg uppercase tracking-wide text-green-400">Laravel<br></p>
         <h1 class="text-4xl font-extrabold tracking-normal text-white sm:text-5xl lg:text-7xl md:leading-none">What Is Laravel?<br></h1>
         <p class="max-w-none mx-auto mt-3 text-xl font-normal text-gray-300 sm:mt-5 sm:text-xl md:mt-5 lg:text-2xl md:max-w-4xl">20 Feb 2023<br></p>
     </div>
@@ -89,13 +89,11 @@
             and session management make it easy to get started, and its large ecosystem of first-party packages provides
             advanced functionality without the need to write everything from scratch.
         </p><br>
-
-        <p>
-            If you have an idea for a web app but don't want to learn Laravel yourself, <a href="{{ route('contact') }}" class="text-green-300 hover:text-green-200">get in touch now</a>.
-        </p>
     </div>
 </section>
 
-@include('components.testimonial')
+<x-project-cta subtitle="Like what you read?" />
+
+<x-testimonial />
 
 @endsection

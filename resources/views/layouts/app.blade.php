@@ -47,11 +47,11 @@
             </a>
             <div class="relative flex flex-col md:flex-row">
                 <nav class="flex flex-wrap justify-center items-center pt-3 pb-5 mb-4 space-x-5 text-base border-b border-gray-200 md:space-x-12 md:pt-0 md:mb-0 md:border-b-0 md:pr-3 md:mr-3 md:pb-0">
-                    <a href="{{ route('home') }}" class="font-medium leading-6 text-gray-200 hover:text-white">Home</a>
-                    <a href="{{ route('about') }}" class="font-medium leading-6 text-gray-200 hover:text-white">About</a>
-                    <a href="{{ route('projects') }}" class="font-medium leading-6 text-gray-200 hover:text-white">Projects</a>
-                    <a href="{{ route('blog') }}" class="font-medium leading-6 text-gray-200 hover:text-white">Blog</a>
-                    <a href="{{ route('contact') }}" class="font-medium leading-6 md:mr-6 text-black bg-green-500 hover:bg-green-600 rounded-xl py-2 px-4 mt-2 sm:mt-0">Contact</a>
+                    <a href="{{ route('home') }}" class="font-medium leading-6 text-gray-200 transition duration-200 hover:text-white">Home</a>
+                    <a href="{{ route('about') }}" class="font-medium leading-6 text-gray-200 transition duration-200 hover:text-white">About</a>
+                    <a href="{{ route('projects') }}" class="font-medium leading-6 text-gray-200 transition duration-200 hover:text-white">Projects</a>
+                    <a href="{{ route('blog') }}" class="font-medium leading-6 text-gray-200 transition duration-200 hover:text-white">Blog</a>
+                    <a href="{{ route('contact') }}" class="font-medium leading-6 md:mr-6 text-black bg-green-400 transition duration-200 hover:scale-105 rounded-full py-2 px-4 mt-2 sm:mt-0">Contact</a>
                 </nav>
             </div>
         </div>

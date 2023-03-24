@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('description')@endsection
+@section('description')From automating mundane tasks to bringing your revolutionary concept to life, my secure web apps provide the perfect balance of functionality and peace of mind.@endsection
 
 @section('content')
 <section class="w-full text-white bg-gray-700 mt-12">
@@ -15,7 +15,7 @@
                         <span class="block">Web App</span>
                         <span class="block font-bold">Developer</span>
                     </h5>
-                    <a class="inline-flex items-center justify-center px-8 py-4 mr-6 text-xl font-medium tracking-wide text-black transition duration-200 bg-green-400 hover:bg-green-500 focus:shadow-outline focus:outline-none" data-primary="green-400" data-rounded="" href="{{ route('contact') }}">
+                    <a class="inline-flex items-center justify-center px-8 py-4 mr-6 text-xl font-medium tracking-wide text-black transition duration-200 bg-green-400 hover:scale-105 rounded-full" data-primary="green-400" data-rounded="" href="{{ route('contact') }}">
                         Get started
                     </a>
                 </div>
@@ -40,11 +40,11 @@
             <div class="order-1 w-full px-3 lg:order-0">
                 <div class="w-full tails-relative">
                     <h2 class="mb-4 text-3xl font-bold text-white leading-tight tracking-tight sm:text-4xl font-heading">Secure web apps to solve your problems!</h2>
-                    <p class="font-medium tracking-tight text-gray-300">
+                    <p class="mb-4 font-medium tracking-tight text-gray-300">
                         In today's fast-paced digital age, businesses and individuals alike need efficient, secure solutions to keep up with the ever-evolving landscape.
                         One of the most effective ways to achieve this is through the use of secure web apps.
                         Whether you're a small business owner looking to streamline your administrative tasks, or an entrepreneur with an ambitious idea for the next groundbreaking innovation, a web app designed to cater to your unique needs and challenges will catapult you towards achieving your goals, maximizing productivity, and ensuring a competitive edge.
-                    </p><br>
+                    </p>
                     <p class="mb-4 font-medium tracking-tight text-gray-300 xl:mb-6">
                         As an experienced developer, I am dedicated to creating cutting-edge, custom web applications that not only solve your problems but exceed your expectations.
                         From automating mundane tasks to bringing your revolutionary concept to life, my secure web apps provide the perfect balance of functionality and peace of mind.
@@ -66,9 +66,6 @@
                     </div>
                 </div>
             </div>
-{{--            <div class="w-full px-3 mb-12 lg:w-1/2 order-0 lg:order-1 lg:mb-0">--}}
-{{--                <img class="mx-auto sm:max-w-sm lg:max-w-full" src="{{ asset('media/feature-graphic.png') }}" alt="Feature graphic">--}}
-{{--            </div>--}}
         </div>
     </div>
 </section>
@@ -146,27 +143,9 @@
             </a>
         </div>
         <div class="w-full mt-10 mb-2 text-center">
-            <a href="{{ route('projects') }}" class="mx-auto text-lg font-medium underline text-green-500">View All Projects</a>
+            <a href="{{ route('projects') }}" class="mx-auto text-lg font-medium underline transition duration-200 text-green-400 hover:text-green-500">View All Projects</a>
         </div>
     </div>
 </section>
-<section class="w-full pt-12 pb-16 bg-gray-700">
-    <div class="px-8 mx-auto max-w-7xl">
-        <div class="relative grid items-center grid-cols-1 p-12 overflow-hidden shadow-2xl md:p-16 lg:p-20 xl:p-24 bg-gradient-to-r from-green-400 to-green-500 rounded-2xl md:grid-cols-5 lg:gap-0" data-primary="green-400" data-rounded="rounded-2xl" data-rounded-max="rounded-full">
-            <div class="absolute top-0 right-0">
-                <svg viewBox="0 0 487 487" class="object-cover w-full h-full" xmlns="http://www.w3.org/2000/svg"><path d="M487 486.7c-66.1-3.6-132.3-7.3-186.3-37s-95.9-85.3-126.2-137.2c-30.4-51.8-49.3-99.9-76.5-151.4C70.9 109.6 35.6 54.8.3 0H487v486.7z" fill="#FFF" fill-rule="nonzero" fill-opacity=".1"></path></svg>
-            </div>
-            <div class="absolute bottom-0 left-0 h-full">
-                <svg viewBox="0 0 487 487" class="w-auto h-full opacity-75 object-stretch" xmlns="http://www.w3.org/2000/svg"><path d="M0 .3c67 2.1 134.1 4.3 186.3 37 52.2 32.7 89.6 95.8 112.8 150.6 23.2 54.8 32.3 101.4 61.2 149.9 28.9 48.4 77.7 98.8 126.4 149.2H0V.3z" fill="#FFF" fill-rule="nonzero" fill-opacity=".1"></path></svg>
-            </div>
-            <div class="relative z-30 col-span-1 md:col-span-3">
-                <h2 class="mb-1 text-3xl font-bold leading-tight text-white md:mb-3 md:text-3xl lg:text-4xl xl:text-5xl">Ready to get started? <span class="block lg:mt-3">Get in touch now.</span></h2>
-                <p class="max-w-sm my-6 text-base font-normal text-green-100 xl:max-w-lg lg:pr-0 pr-7 lg:text-xl" data-primary="green-400">Are you ready to build the web app of your dreams? Get in touch to see if we'll be a good fit.</p>
-                <a href="{{ route('contact') }}" class="flex items-center justify-center w-full px-4 py-2 text-base font-medium leading-6 text-green-700 whitespace-no-wrap bg-white border-2 border-transparent rounded-full shadow-sm md:w-auto md:inline-flex hover:bg-transparent hover:text-white hover:border-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-600" data-primary="green-400" data-rounded="rounded-full">
-                    Get Started
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
+<x-project-cta />
 @endsection
