@@ -10,7 +10,7 @@
 </x-project-header>
 
 <div class="container items-center max-w-7xl px-5 mx-auto mt-16 text-center">
-    <x-youtube-video id="MwML_f-fHh4"></x-youtube-video>
+    <x-youtube-video id="J5Z7zoviqXg"></x-youtube-video>
 </div>
 
 <x-project-description title="Streamline Your Shooting Club">
@@ -46,6 +46,9 @@
     <x-showcase-card src="media/projects/shoothub/PackagesDemo.png" title="Automated Renewals">
         Keep your members engaged with auto-generated renewal reminders and pro-rata pricing.
     </x-showcase-card>
+    <x-showcase-card src="media/projects/shoothub/FirearmsDemo.png" title="Firearms Tracking">
+        Allow members to track their firearms and select them at check-in.
+    </x-showcase-card>
     <x-showcase-card src="media/projects/shoothub/CalendarDemo.png" title="Events Calendar">
         Keep members in the loop with an up-to-date calendar featuring club events.
     </x-showcase-card>
@@ -60,9 +63,6 @@
     </x-showcase-card>
     <x-showcase-card src="media/projects/shoothub/GuestDemo.png" title="Guest Days">
         Effortlessly monitor guest attendance with seamless tracking capabilities.
-    </x-showcase-card>
-    <x-showcase-card src="media/projects/shoothub/FacebookDemo.png" title="Facebook Login">
-        Offer hassle-free logins for members with quick Facebook account integration.
     </x-showcase-card>
 </x-project-features>
 <x-project-cta subtitle="Do you run a shooting club?">
