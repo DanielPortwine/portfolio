@@ -10,7 +10,7 @@
 </x-project-header>
 
 <div class="container items-center max-w-7xl px-5 mx-auto mt-16 text-center">
-    <x-youtube-video id="J5Z7zoviqXg"></x-youtube-video>
+    <x-youtube-video id="1SEY44CRNR8"></x-youtube-video>
 </div>
 
 <x-project-description title="Streamline Your Shooting Club">
