@@ -50,7 +50,7 @@
         Allow members to track their firearms and select them at check-in.
     </x-showcase-card>
     <x-showcase-card src="media/projects/shoothub/ProfileDemo.png" title="Member Profile">
-        Empower your members with personalized insights through an easy-to-use dashboard.
+        Empower your members with personalised insights through an easy-to-use dashboard.
     </x-showcase-card>
     <x-showcase-card src="media/projects/shoothub/CalendarDemo.png" title="Events Calendar">
         Keep members in the loop with an up-to-date calendar featuring club events.
@@ -62,7 +62,7 @@
         Simplify competition management with an integrated scoring system.
     </x-showcase-card>
     <x-showcase-card src="media/projects/shoothub/ProfileDemo.png" title="Awards">
-        boost engagement with an awards system that rewards members for their achievements.
+        Boost engagement by rewarding members for their achievements.
     </x-showcase-card>
     <x-showcase-card src="media/projects/shoothub/AdminDemo.png" title="Admin">
         Optimise club performance with crucial data and key metrics right at your fingertips.
